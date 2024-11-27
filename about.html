@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+
+    .menu a:hover {
+      color: #f4d03f;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+      align-items: center;
+    }
+
+    .image-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .image-container img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    .text-container {
+      flex: 2;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    .text-container h1 {
+      font-size: 2.5em;
+      color: #444;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #f4d03f;
+      display: inline-block;
+    }
+
+    .text-container h2, .text-container h3 {
+      font-size: 1.8em;
+      color: #555;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .text-container p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #666;
+    }
+
+    /* Social Media Section */
+    .social-media {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .social-media h3 {
+      font-size: 1.5em;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .icon-container a {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid #ddd;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .icon-container a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Section -->
+  <nav>
+    <div class="logo">
+      <img src="C:/Users/ACER-USER/Downloads/New folder/logo.jpg" alt="logo">
+    </div>
+    <div class="menu">
+      <a href="port.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="skill.html">Gallery</a>
+      <a href="experience.html">Experience</a>
+    </div>
+  </nav>
+
+  <!-- Main Content Section -->
+  <div class="container">
+    <!-- Left Image Section -->
+    <div class="image-container">
+      <img src="about me.jpg" alt="About Me">
+    </div>
+
+    <!-- Right Text Section -->
+    <div class="text-container">
+      <h1>About Me</h1>
+      <p>Hello! My name is Ahmad Sayyid Bin Muhamad Azman, and I’m currently pursuing my diploma in Information Management Systems at Universiti Teknologi MARA. I am in the final semester of my academic journey and excited to take the next step in my career. Over the years, I’ve cultivated a strong passion for technology, creativity, and problem-solving. I enjoy learning new skills and exploring innovative ways to apply them in real-world scenarios. My experience has taught me the value of persistence, curiosity, and teamwork. Outside of academics, I love connecting with people, sharing ideas, and continuously challenging myself to grow both personally and professionally. Thank you for visiting my portfolio, and feel free to explore the rest of my website to learn more about my skills, education, and experiences.</p>
+      <h2>My Passion</h2>
+      <p>Football has always been more than just a sport for me; it’s a way of life that fuels my determination, connects me with others, and brings unparalleled joy. The rhythm of the game, the teamwork, and the moments of brilliance on the field inspire me to push my limits, both physically and mentally. Whether playing with friends, watching my favorite teams, or studying the strategies behind the game, football teaches me discipline, resilience, and the value of unity. It’s a passion that not only keeps me active but also ignites a sense of belonging and pride, making it a cornerstone of who I am..</p>
+      <h3>My Strength</h3>
+      <p> Your strength lies in your ability to stay determined and focused on your goals, even when faced with challenges. You possess strong problem-solving skills, adaptability, and a positive attitude that helps you overcome obstacles. Additionally, your ability to communicate effectively and work well with others makes you a valuable team player. These qualities, combined with your dedication and resilience, are what set you apart and drive your success.</p>
+    </div>
+  </div>
+
+  <!-- Social Media Section -->
+  <section class="social-media">
+    <h3>Connect with me:</h3>
+    <div class="icon-container">
+      <a href="https://www.instagram.com/yiddddd._/profilecard/?igsh=MWgzYTJudXgxcTV0cA==" target="_blank">
+        <img src="insta.png" alt="Instagram">
+      </a>
+      <a href="https://wa.link/6ur9fr" target="_blank">
+        <img src="whatsapp.png" alt="WhatsApp">
+      </a>
+      <a href="https://t.me/yidddddddddddd" target="_blank">
+        <img src="tele.png" alt="Telegram">
+      </a>
+      <a href="mailto:hilmanahmad0547@gmail.com">
+        <img src="gmail.png" alt="Gmail">
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
